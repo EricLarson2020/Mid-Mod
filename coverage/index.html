@@ -14,7 +14,7 @@
       <img src="./assets/0.11.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2020-05-22T09:32:19-06:00">2020-05-22T09:32:19-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2020-05-22T09:48:15-06:00">2020-05-22T09:48:15-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -30,7 +30,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.1
+         1.13
        </span>
     </span> hits/line
     )
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>58</b> relevant lines,
-    <span class="green"><b>58</b> lines covered</span> and
+    <b>64</b> relevant lines,
+    <span class="green"><b>64</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -106,8 +106,8 @@
           <td class="strong t-file__name"><a href="#c33d7ed6d69fcae541eb5bb3b863576eb8af8769" class="src_link" title="app/models/movie.rb">app/models/movie.rb</a></td>
           <td class="green strong t-file__coverage">100.0 %</td>
           <td>4</td>
-          <td>2</td>
-          <td>2</td>
+          <td>3</td>
+          <td>3</td>
           <td>0</td>
           <td>1.0</td>
           
@@ -117,8 +117,8 @@
           <td class="strong t-file__name"><a href="#e8ccdbb6637d9c9f659769be38e0fd5f04224731" class="src_link" title="app/models/studio.rb">app/models/studio.rb</a></td>
           <td class="green strong t-file__coverage">100.0 %</td>
           <td>4</td>
-          <td>2</td>
-          <td>2</td>
+          <td>3</td>
+          <td>3</td>
           <td>0</td>
           <td>1.0</td>
           
@@ -270,9 +270,9 @@
         <tr class="t-file">
           <td class="strong t-file__name"><a href="#bb791441c7f14652fad08a603ff95598209e7842" class="src_link" title="spec/models/movie_spec.rb">spec/models/movie_spec.rb</a></td>
           <td class="green strong t-file__coverage">100.0 %</td>
-          <td>9</td>
-          <td>6</td>
-          <td>6</td>
+          <td>13</td>
+          <td>8</td>
+          <td>8</td>
           <td>0</td>
           <td>1.5</td>
           
@@ -281,11 +281,11 @@
         <tr class="t-file">
           <td class="strong t-file__name"><a href="#dc590d558dbea87ad4dc548c14c3536b36c7f7a7" class="src_link" title="spec/models/studio_spec.rb">spec/models/studio_spec.rb</a></td>
           <td class="green strong t-file__coverage">100.0 %</td>
-          <td>8</td>
-          <td>5</td>
-          <td>5</td>
+          <td>12</td>
+          <td>7</td>
+          <td>7</td>
           <td>0</td>
-          <td>1.4</td>
+          <td>1.43</td>
           
         </tr>
       
@@ -500,8 +500,8 @@
     
 
     <div class="t-line-summary">
-      <b>2</b> relevant lines.
-      <span class="green"><b>2</b> lines covered</span> and
+      <b>3</b> relevant lines.
+      <span class="green"><b>3</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -530,18 +530,18 @@
 
             
 
-            <code class="ruby">validates_presence_of :title, :creation_year, :genre </code>
+            <code class="ruby">validates_presence_of :title, :creation_year, :genre</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="3">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
             
 
-            <code class="ruby"></code>
+            
+
+            <code class="ruby">  belongs_to :studio</code>
           </li>
         </div>
       
@@ -575,8 +575,8 @@
     
 
     <div class="t-line-summary">
-      <b>2</b> relevant lines.
-      <span class="green"><b>2</b> lines covered</span> and
+      <b>3</b> relevant lines.
+      <span class="green"><b>3</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -610,13 +610,13 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="3">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
             
 
-            <code class="ruby"></code>
+            
+
+            <code class="ruby">  has_many :movies</code>
           </li>
         </div>
       
@@ -2769,8 +2769,8 @@
     
 
     <div class="t-line-summary">
-      <b>6</b> relevant lines.
-      <span class="green"><b>6</b> lines covered</span> and
+      <b>8</b> relevant lines.
+      <span class="green"><b>8</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -2876,6 +2876,50 @@
 
             
 
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  describe &quot;relationships&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="11">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    it {should belong_to :studio}</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
             <code class="ruby">end</code>
           </li>
         </div>
@@ -2899,8 +2943,8 @@
     
 
     <div class="t-line-summary">
-      <b>5</b> relevant lines.
-      <span class="green"><b>5</b> lines covered</span> and
+      <b>7</b> relevant lines.
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -2990,6 +3034,50 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  describe &quot;relationships&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="10">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    it { should have_many :movies}</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
             
             
 
