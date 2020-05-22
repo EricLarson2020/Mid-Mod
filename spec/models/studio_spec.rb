@@ -6,5 +6,7 @@ RSpec.describe Studio, type: :model do
     it {should validate_presence_of :location}
   end
 
-  
+  describe "relationships" do
+    it { should have_many :movies}
+  end
 end
