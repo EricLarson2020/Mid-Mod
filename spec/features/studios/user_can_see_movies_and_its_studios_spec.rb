@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Stuidos Index Page", type: :feature do
+RSpec.describe "Studios Index Page", type: :feature do
   it "Can see and stuidio and movie names" do
     studio_1 = Studio.create({
       name: "Happy Studio",
@@ -41,19 +41,19 @@ RSpec.describe "Stuidos Index Page", type: :feature do
     })
 
   visit "/studios"
-  within "studio-#{studio_1.id}" do
+  within ".studio-#{studio_1.id}" do
     expect(page).to have_content(studio_1.name)
-    expect(page).to have_content(movie_1.name)
-    expect(page).to have_content(movie_2.name)
+    expect(page).to have_content(movie_1.title)
+    expect(page).to have_content(movie_2.title)
     expect(page).not_to have_content(studio_2.name)
-    expect(page).not_to have_content(movie_3.name)
+    expect(page).not_to have_content(movie_3.title)
   end
-  within "studio-#{studio_2.id}" do
+  within ".studio-#{studio_2.id}" do
     expect(page).to have_content(studio_2.name)
-    expect(page).to have_content(movie_3.name)
-    expect(page).to have_content(movie_4.name)
+    expect(page).to have_content(movie_3.title)
+    expect(page).to have_content(movie_4.title)
     expect(page).not_to have_content(studio_1.name)
-    expect(page).not_to have_content(movie_1.name)
+    expect(page).not_to have_content(movie_1.title)
   end
 
   end
