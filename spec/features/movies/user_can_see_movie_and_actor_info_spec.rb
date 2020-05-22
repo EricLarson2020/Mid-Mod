@@ -65,7 +65,12 @@ RSpec.describe "Movie Show Page", type: :feature do
         studio_id: studio_1.id
         })
 
-  visit "/movies"
+  visit "/movies/#{movie_1.id}"
+  fill_in :name, with: "Fred"
+  fill_in :age, with: :10
+  click_button "Submit"
+  expect(current_path).to eql("/movies/#{movie_1.id}")
+  expect(page).to have_content("Fred")
 end
 
 # As a visitor,
