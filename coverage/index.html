@@ -14,7 +14,7 @@
       <img src="./assets/0.11.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2020-05-22T11:10:48-06:00">2020-05-22T11:10:48-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2020-05-22T11:27:37-06:00">2020-05-22T11:27:37-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -30,7 +30,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.13
+         1.15
        </span>
     </span> hits/line
     )
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>132</b> relevant lines,
-    <span class="green"><b>132</b> lines covered</span> and
+    <b>133</b> relevant lines,
+    <span class="green"><b>133</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -87,7 +87,7 @@
           <td>3</td>
           <td>3</td>
           <td>0</td>
-          <td>1.0</td>
+          <td>1.33</td>
           
         </tr>
       
@@ -120,7 +120,7 @@
           <td>8</td>
           <td>8</td>
           <td>0</td>
-          <td>1.13</td>
+          <td>1.38</td>
           
         </tr>
       
@@ -325,11 +325,11 @@
         <tr class="t-file">
           <td class="strong t-file__name"><a href="#0ab0d306343304b90f8ec03f9988cf23480726e2" class="src_link" title="spec/models/actor_spec.rb">spec/models/actor_spec.rb</a></td>
           <td class="green strong t-file__coverage">100.0 %</td>
-          <td>92</td>
-          <td>17</td>
-          <td>17</td>
+          <td>93</td>
+          <td>18</td>
+          <td>18</td>
           <td>0</td>
-          <td>1.24</td>
+          <td>1.22</td>
           
         </tr>
       
@@ -517,8 +517,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="5">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="5">
+            <span class="hits">2</span>
             
 
             
@@ -841,13 +841,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="9">
-            <span class="hits">2</span>
+          <li class="covered" data-hits="3" data-linenumber="9">
+            <span class="hits">3</span>
             
 
             
 
-            <code class="ruby">    Actor.average(:age).round(1)</code>
+            <code class="ruby">    Actor.average(:age)</code>
           </li>
         </div>
       
@@ -896,8 +896,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="14">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="14">
+            <span class="hits">2</span>
             
 
             
@@ -4233,8 +4233,8 @@
     
 
     <div class="t-line-summary">
-      <b>17</b> relevant lines.
-      <span class="green"><b>17</b> lines covered</span> and
+      <b>18</b> relevant lines.
+      <span class="green"><b>18</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -4791,18 +4791,18 @@
 
             
 
-            <code class="ruby">      expect(Actor.average_age).to eql(27.3)</code>
+            <code class="ruby">      average_age_of_actors = Actor.average_age.round(1)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="51">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="51">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    end</code>
+            
+
+            <code class="ruby">      expect(average_age_of_actors).to eql(27.3)</code>
           </li>
         </div>
       
@@ -4813,7 +4813,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
@@ -4824,7 +4824,7 @@
 
             
 
-            <code class="ruby">    # it &quot;sort_actors&quot; do</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -4835,7 +4835,7 @@
 
             
 
-            <code class="ruby">    #   studio_1 = Studio.create({</code>
+            <code class="ruby">    # it &quot;sort_actors&quot; do</code>
           </li>
         </div>
       
@@ -4846,7 +4846,7 @@
 
             
 
-            <code class="ruby">    #     name: &quot;Happy Studio&quot;,</code>
+            <code class="ruby">    #   studio_1 = Studio.create({</code>
           </li>
         </div>
       
@@ -4857,7 +4857,7 @@
 
             
 
-            <code class="ruby">    #     location: &quot;333 Blvd Street&quot;</code>
+            <code class="ruby">    #     name: &quot;Happy Studio&quot;,</code>
           </li>
         </div>
       
@@ -4868,7 +4868,7 @@
 
             
 
-            <code class="ruby">    #     })</code>
+            <code class="ruby">    #     location: &quot;333 Blvd Street&quot;</code>
           </li>
         </div>
       
@@ -4879,7 +4879,7 @@
 
             
 
-            <code class="ruby">    #     movie_1 = Movie.create({</code>
+            <code class="ruby">    #     })</code>
           </li>
         </div>
       
@@ -4890,7 +4890,7 @@
 
             
 
-            <code class="ruby">    #         title: &quot;Happy&quot;,</code>
+            <code class="ruby">    #     movie_1 = Movie.create({</code>
           </li>
         </div>
       
@@ -4901,7 +4901,7 @@
 
             
 
-            <code class="ruby">    #         creation_year: &quot;2011&quot;,</code>
+            <code class="ruby">    #         title: &quot;Happy&quot;,</code>
           </li>
         </div>
       
@@ -4912,7 +4912,7 @@
 
             
 
-            <code class="ruby">    #         genre: &quot;Comedy&quot;,</code>
+            <code class="ruby">    #         creation_year: &quot;2011&quot;,</code>
           </li>
         </div>
       
@@ -4923,7 +4923,7 @@
 
             
 
-            <code class="ruby">    #         studio_id: studio_1.id</code>
+            <code class="ruby">    #         genre: &quot;Comedy&quot;,</code>
           </li>
         </div>
       
@@ -4934,7 +4934,7 @@
 
             
 
-            <code class="ruby">    #         })</code>
+            <code class="ruby">    #         studio_id: studio_1.id</code>
           </li>
         </div>
       
@@ -4945,7 +4945,7 @@
 
             
 
-            <code class="ruby">    #</code>
+            <code class="ruby">    #         })</code>
           </li>
         </div>
       
@@ -4956,7 +4956,7 @@
 
             
 
-            <code class="ruby">    #     movie_2 = Movie.create({</code>
+            <code class="ruby">    #</code>
           </li>
         </div>
       
@@ -4967,7 +4967,7 @@
 
             
 
-            <code class="ruby">    #       title: &quot;Another Comedy&quot;,</code>
+            <code class="ruby">    #     movie_2 = Movie.create({</code>
           </li>
         </div>
       
@@ -4978,7 +4978,7 @@
 
             
 
-            <code class="ruby">    #       creation_year: &quot;2012&quot;,</code>
+            <code class="ruby">    #       title: &quot;Another Comedy&quot;,</code>
           </li>
         </div>
       
@@ -4989,7 +4989,7 @@
 
             
 
-            <code class="ruby">    #       genre: &quot;Comedy&quot;,</code>
+            <code class="ruby">    #       creation_year: &quot;2012&quot;,</code>
           </li>
         </div>
       
@@ -5000,7 +5000,7 @@
 
             
 
-            <code class="ruby">    #       studio_id: studio_1.id</code>
+            <code class="ruby">    #       genre: &quot;Comedy&quot;,</code>
           </li>
         </div>
       
@@ -5011,7 +5011,7 @@
 
             
 
-            <code class="ruby">    #       })</code>
+            <code class="ruby">    #       studio_id: studio_1.id</code>
           </li>
         </div>
       
@@ -5022,7 +5022,7 @@
 
             
 
-            <code class="ruby">    #</code>
+            <code class="ruby">    #       })</code>
           </li>
         </div>
       
@@ -5033,7 +5033,7 @@
 
             
 
-            <code class="ruby">    #   actor_1 = Actor.create({</code>
+            <code class="ruby">    #</code>
           </li>
         </div>
       
@@ -5044,7 +5044,7 @@
 
             
 
-            <code class="ruby">    #       name: &quot;Bob&quot;,</code>
+            <code class="ruby">    #   actor_1 = Actor.create({</code>
           </li>
         </div>
       
@@ -5055,7 +5055,7 @@
 
             
 
-            <code class="ruby">    #       age: 22</code>
+            <code class="ruby">    #       name: &quot;Bob&quot;,</code>
           </li>
         </div>
       
@@ -5066,7 +5066,7 @@
 
             
 
-            <code class="ruby">    #     })</code>
+            <code class="ruby">    #       age: 22</code>
           </li>
         </div>
       
@@ -5077,7 +5077,7 @@
 
             
 
-            <code class="ruby">    #</code>
+            <code class="ruby">    #     })</code>
           </li>
         </div>
       
@@ -5088,7 +5088,7 @@
 
             
 
-            <code class="ruby">    #   actor_2 = Actor.create({</code>
+            <code class="ruby">    #</code>
           </li>
         </div>
       
@@ -5099,7 +5099,7 @@
 
             
 
-            <code class="ruby">    #       name: &quot;Alena&quot;,</code>
+            <code class="ruby">    #   actor_2 = Actor.create({</code>
           </li>
         </div>
       
@@ -5110,7 +5110,7 @@
 
             
 
-            <code class="ruby">    #       age: 20</code>
+            <code class="ruby">    #       name: &quot;Alena&quot;,</code>
           </li>
         </div>
       
@@ -5121,7 +5121,7 @@
 
             
 
-            <code class="ruby">    #     })</code>
+            <code class="ruby">    #       age: 20</code>
           </li>
         </div>
       
@@ -5132,7 +5132,7 @@
 
             
 
-            <code class="ruby">    #</code>
+            <code class="ruby">    #     })</code>
           </li>
         </div>
       
@@ -5143,7 +5143,7 @@
 
             
 
-            <code class="ruby">    #   actor_3 = Actor.create({</code>
+            <code class="ruby">    #</code>
           </li>
         </div>
       
@@ -5154,7 +5154,7 @@
 
             
 
-            <code class="ruby">    #       name: &quot;Fred&quot;,</code>
+            <code class="ruby">    #   actor_3 = Actor.create({</code>
           </li>
         </div>
       
@@ -5165,7 +5165,7 @@
 
             
 
-            <code class="ruby">    #       age: 40</code>
+            <code class="ruby">    #       name: &quot;Fred&quot;,</code>
           </li>
         </div>
       
@@ -5176,7 +5176,7 @@
 
             
 
-            <code class="ruby">    #     })</code>
+            <code class="ruby">    #       age: 40</code>
           </li>
         </div>
       
@@ -5187,7 +5187,7 @@
 
             
 
-            <code class="ruby">    #   sorted_actors = Actor.sort_actors</code>
+            <code class="ruby">    #     })</code>
           </li>
         </div>
       
@@ -5198,7 +5198,7 @@
 
             
 
-            <code class="ruby">    #   expect(sorted_actors[0]).to eql(actor_2)</code>
+            <code class="ruby">    #   sorted_actors = Actor.sort_actors</code>
           </li>
         </div>
       
@@ -5209,7 +5209,7 @@
 
             
 
-            <code class="ruby">    #   expect(sorted_actors[1]).to eql(actor_1)</code>
+            <code class="ruby">    #   expect(sorted_actors[0]).to eql(actor_2)</code>
           </li>
         </div>
       
@@ -5220,7 +5220,7 @@
 
             
 
-            <code class="ruby">    #   expect(sorted_actors[2]).to eql(actor_3)</code>
+            <code class="ruby">    #   expect(sorted_actors[1]).to eql(actor_1)</code>
           </li>
         </div>
       
@@ -5231,7 +5231,7 @@
 
             
 
-            <code class="ruby">    # end</code>
+            <code class="ruby">    #   expect(sorted_actors[2]).to eql(actor_3)</code>
           </li>
         </div>
       
@@ -5242,12 +5242,23 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby">    # end</code>
           </li>
         </div>
       
         <div>
           <li class="never" data-hits="" data-linenumber="92">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="93">
             
             
 

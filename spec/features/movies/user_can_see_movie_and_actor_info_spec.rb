@@ -53,7 +53,7 @@ RSpec.describe "Movie Show Page", type: :feature do
 
   end
 
-  it "Can Enter an actor on the movie show page"
+  it "Can Enter an actor on the movie show page" do
   studio_1 = Studio.create({
     name: "Happy Studio",
     location: "333 Blvd Street"
@@ -64,13 +64,20 @@ RSpec.describe "Movie Show Page", type: :feature do
         genre: "Comedy",
         studio_id: studio_1.id
         })
+    actor_1 = Actor.create({
+        name: "Bob",
+        age: 22
+      })
+  movie_1.actors << actor_1
+
 
   visit "/movies/#{movie_1.id}"
   fill_in :name, with: "Fred"
-  fill_in :age, with: :10
+  fill_in :age, with: 10
   click_button "Submit"
   expect(current_path).to eql("/movies/#{movie_1.id}")
   expect(page).to have_content("Fred")
+  end
 end
 
 # As a visitor,

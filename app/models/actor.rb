@@ -6,7 +6,7 @@ validates_presence_of :name, :age
 
   def self.average_age
 
-    Actor.average(:age).round(1)
+    Actor.average(:age)
   end
 
   def self.sort_actors

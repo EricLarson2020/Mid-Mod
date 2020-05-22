@@ -47,7 +47,8 @@ RSpec.describe Actor, type: :model do
         name: "Fred",
         age: 40
       })
-      expect(Actor.average_age).to eql(27.3)
+      average_age_of_actors = Actor.average_age.round(1)
+      expect(average_age_of_actors).to eql(27.3)
     end
 
     # it "sort_actors" do
