@@ -12,6 +12,9 @@ RSpec.describe Actor, type: :model do
   end
 
   describe "class_methods" do
+    it "average_age" do
+
+
     studio_1 = Studio.create({
       name: "Happy Studio",
       location: "333 Blvd Street"
@@ -45,5 +48,6 @@ RSpec.describe Actor, type: :model do
         age: 40
       })
       expect(Actor.average_age).to eql(27.3)
+    end
   end
 end
