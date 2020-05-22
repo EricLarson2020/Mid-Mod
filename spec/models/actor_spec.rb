@@ -49,5 +49,44 @@ RSpec.describe Actor, type: :model do
       })
       expect(Actor.average_age).to eql(27.3)
     end
+
+    # it "sort_actors" do
+    #   studio_1 = Studio.create({
+    #     name: "Happy Studio",
+    #     location: "333 Blvd Street"
+    #     })
+    #     movie_1 = Movie.create({
+    #         title: "Happy",
+    #         creation_year: "2011",
+    #         genre: "Comedy",
+    #         studio_id: studio_1.id
+    #         })
+    #
+    #     movie_2 = Movie.create({
+    #       title: "Another Comedy",
+    #       creation_year: "2012",
+    #       genre: "Comedy",
+    #       studio_id: studio_1.id
+    #       })
+    #
+    #   actor_1 = Actor.create({
+    #       name: "Bob",
+    #       age: 22
+    #     })
+    #
+    #   actor_2 = Actor.create({
+    #       name: "Alena",
+    #       age: 20
+    #     })
+    #
+    #   actor_3 = Actor.create({
+    #       name: "Fred",
+    #       age: 40
+    #     })
+    #   sorted_actors = Actor.sort_actors
+    #   expect(sorted_actors[0]).to eql(actor_2)
+    #   expect(sorted_actors[1]).to eql(actor_1)
+    #   expect(sorted_actors[2]).to eql(actor_3)
+    # end
   end
 end

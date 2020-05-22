@@ -38,7 +38,7 @@ RSpec.describe "Movie Show Page", type: :feature do
 
   movie_1.actors << actor_1
   movie_1.actors << actor_2
-  movie_2.actors << actors_3
+  movie_2.actors << actor_3
 
   visit "movies/#{movie_1.id}"
   expect(page).to have_content(movie_1.title)
