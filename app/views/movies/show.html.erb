@@ -1,0 +1,9 @@
+<h1>Movie<h1>
+
+<strong>Movie Title: <%=@movie.title%></strong>
+<strong>Movie Creation Year: <%=@movie.creation_year%></strong>
+<strong>Movie Genre: <%=@movie.genre%></strong>
+<% @movie.actors.sort_actors.each do |actor| %>
+  <%= actor.name %>
+  <% end %>
+<strong>Average Age: <%=@movie.actors.average_age%>

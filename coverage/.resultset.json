@@ -208,6 +208,7 @@
           null,
           null,
           1,
+          1,
           null
         ]
       },
@@ -398,12 +399,12 @@
           null,
           1,
           null,
-          1,
+          2,
           null,
           null,
           1,
           null,
-          0,
+          1,
           null,
           null
         ]
@@ -492,9 +493,10 @@
           null
         ]
       },
-      "/Users/ericlarson/turing/2module/assessments/b2-mid-mod/app/controllers/studios_controller.rb": {
+      "/Users/ericlarson/turing/2module/assessments/b2-mid-mod/app/controllers/movies_controller.rb": {
         "lines": [
           1,
+          null,
           null,
           1,
           1,
@@ -509,8 +511,19 @@
           1,
           null
         ]
+      },
+      "/Users/ericlarson/turing/2module/assessments/b2-mid-mod/app/controllers/studios_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1590166856
+    "timestamp": 1590167448
   }
 }

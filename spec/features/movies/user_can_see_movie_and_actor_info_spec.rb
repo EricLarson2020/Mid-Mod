@@ -49,8 +49,23 @@ RSpec.describe "Movie Show Page", type: :feature do
   expect(page).to have_content("Average Age: 21")
   expect(page).not_to have_content(actor_3.name)
   expect(page).not_to have_content(movie_2.title)
+  expect(actor_2.name).to appear_before(actor_1.name)
 
   end
+
+  it "Can Enter an actor on the movie show page"
+  studio_1 = Studio.create({
+    name: "Happy Studio",
+    location: "333 Blvd Street"
+    })
+    movie_1 = Movie.create({
+        title: "Happy",
+        creation_year: "2011",
+        genre: "Comedy",
+        studio_id: studio_1.id
+        })
+
+  visit "/movies"
 end
 
 # As a visitor,
