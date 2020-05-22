@@ -219,6 +219,8 @@
         "lines": [
           1,
           1,
+          1,
+          1,
           null
         ]
       },
@@ -265,12 +267,16 @@
           null,
           1,
           2,
+          2,
+          2,
           null,
           null
         ]
       },
       "/Users/ericlarson/turing/2module/assessments/b2-mid-mod/app/models/movie.rb": {
         "lines": [
+          1,
+          1,
           1,
           1,
           1,
@@ -290,6 +296,7 @@
           1,
           2,
           null,
+          null,
           null
         ]
       },
@@ -302,6 +309,6 @@
         ]
       }
     },
-    "timestamp": 1590163014
+    "timestamp": 1590163560
   }
 }
