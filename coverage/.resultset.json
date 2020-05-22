@@ -209,6 +209,8 @@
           null,
           1,
           1,
+          1,
+          null,
           null
         ]
       },
@@ -400,12 +402,12 @@
           null,
           1,
           null,
-          3,
+          4,
           null,
           null,
           1,
           null,
-          2,
+          3,
           null,
           null
         ]
@@ -500,7 +502,7 @@
           null,
           null,
           1,
-          2,
+          3,
           null,
           null,
           null
@@ -510,6 +512,27 @@
         "lines": [
           1,
           1,
+          null
+        ]
+      },
+      "/Users/ericlarson/turing/2module/assessments/b2-mid-mod/app/controllers/movie_actors_controller.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -525,6 +548,6 @@
         ]
       }
     },
-    "timestamp": 1590168457
+    "timestamp": 1590169416
   }
 }
