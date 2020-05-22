@@ -229,6 +229,29 @@
           null
         ]
       },
+      "/Users/ericlarson/turing/2module/assessments/b2-mid-mod/spec/models/movie_actors_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ericlarson/turing/2module/assessments/b2-mid-mod/app/models/movie_actor.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/ericlarson/turing/2module/assessments/b2-mid-mod/spec/models/movie_spec.rb": {
         "lines": [
           1,
@@ -279,6 +302,6 @@
         ]
       }
     },
-    "timestamp": 1590162495
+    "timestamp": 1590163014
   }
 }
