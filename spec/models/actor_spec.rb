@@ -85,9 +85,9 @@ RSpec.describe Actor, type: :model do
     #       age: 40
     #     })
     #   sorted_actors = Actor.sort_actors
-    #   expect(sorted_actors[0]).to eql(actor_2)
-    #   expect(sorted_actors[1]).to eql(actor_1)
-    #   expect(sorted_actors[2]).to eql(actor_3)
+    #   expect(sorted_actors).to eql(actor_2)
+    #   expect(sorted_actors).to eql(actor_1)
+    #   expect(sorted_actors).to eql(actor_3)
     # end
   end
 end
