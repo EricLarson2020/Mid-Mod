@@ -214,8 +214,23 @@
           1,
           null
         ]
+      },
+      "/Users/ericlarson/turing/2module/assessments/b2-mid-mod/app/models/studio.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/ericlarson/turing/2module/assessments/b2-mid-mod/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1590160653
+    "timestamp": 1590161006
   }
 }
