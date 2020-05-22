@@ -12,7 +12,7 @@ RSpec.describe "Studios Index Page", type: :feature do
         location: "222 Scary Street"
         })
 
-    movie_1 = Movie.create({
+  movie_1 = Movie.create({
       title: "Happy",
       creation_year: "2011",
       genre: "Comedy",
